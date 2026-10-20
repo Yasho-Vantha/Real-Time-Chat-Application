@@ -1,0 +1,5 @@
+:root{--bg:#f3f1ec;--card:#fff;--ink:#1c2321;--mute:#66726e;--line:#dcd8cf;--brand:#0f6b57;--mine:#d7f0e6;--on:#fff}
+@media (prefers-color-scheme:dark){:root{--bg:#121816;--card:#1b2420;--ink:#e6efeb;--mute:#8fa19a;--line:#2c3a34;--brand:#3fbf9a;--mine:#1d4a3c;--on:#0d1411}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,sans-serif}
+button,input{font:inherit}
